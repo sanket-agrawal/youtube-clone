@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 8</title>
+        <style>
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+            input{
+                display: block;
+                margin-bottom: 5px;
+            }
+            .customer-msg{
+                display: inline-block;
+                font-size: 19px;
+                width: 240px;
+                vertical-align: middle;
+            }
+            .google-logo{
+                
+            }
+            .google-search{
+        
+            }
+
+            .firstname-input, 
+            .lastname-input
+            {
+            font-family: Arial;
+            font-size: 15px;   
+            padding: 10px 15px 10px 10px;
+            display: inline-block;
+            width: 140px;
+            }
+
+            .email-input{
+                font-size: 15px;
+                padding: 10px 15px 10px 10px;
+                width: 313px;
+            }
+            .signup-button{
+                width: 342px;
+                height: 35px;
+                color: white;
+                background-color: #5e5ee5;
+                border: none;
+                border-radius: 5px;
+                font-size: 15px;
+                font-weight: bold;
+            }
+
+            .uber-heading{
+                font-family: Arial;
+                margin-bottom: 25px;
+                font-size: 35px;
+            }
+            .input-text{
+                font-family: Arial;
+                font-size: 13px;
+                padding: 10px;
+                width: 300px;
+                background-color: #e6dbdb;
+                border: none;
+            }
+            .request-btn{
+                margin-top: 20px;
+                font-family: Arial;
+                background-color: black;
+                color: white;
+                border:none;
+                padding: 15px;
+            }
+            .schedule-btn{
+                margin-top: 20px;
+                font-family: Arial;
+                border:none;
+                padding: 15px;
+                background-color: #d7d2d2;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+            </div>  
+            <div>
+                <p class="customer-msg">
+                    Thanks for chatting with our customer support. Would you like to take our quick survey?
+                </p>
+                <button>Yes</button>
+                <button>No</button>
+            </div>
+            <div>
+                <img src="../assets/thumbnails/googlelogo_color_272x92dp.png" alt="google-logo" class="google-logo">
+                <input type="text" placeholder="Search Gooogle ot type a URL" class="google-search">
+            </div>
+            <div>
+                <input type="text" placeholder="First name" class="firstname-input">
+                <input type="text" placeholder="Last name" class="lastname-input">
+                <input type="text" type="email" class="email-input" placeholder="Email">
+                <button class="signup-button">Sign Up</button>
+            </div>
+            <div>
+                <p class="uber-heading">Request a ride now</p>
+                <input type="text" placeholder="Enter pickup location" class="input-text">
+                <input type="text" placeholder="Enter destination" class="input-text">
+                <button class="request-btn">Request now</button>
+                <button class="schedule-btn">Schedule for later</button>
+            </div>
+        </div>
+        
+    </body>
+</html>

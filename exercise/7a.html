@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 7</title>
+    <style>
+        .cover{
+            width: 200px;
+           border-radius: 100px;
+        }
+
+        .searchbar{
+            font-size: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            border: 1px solid red;
+            border-radius: 5px;
+        }
+        .searchbar:hover{
+            border:1px solid yellow;
+        }
+        .searchbar:target{
+            border:1px solid blue
+        }
+        .googlesearch{
+            font-size: 15px;
+            font-family: Arial;
+            padding: 10px 30px 10px 5px;
+            border-radius: 20px;
+            width: 300px;
+            border: 1px solid gray;
+            box-shadow: 2px 2px 2px rgb(211, 203, 203) ;
+        }
+        .linkedin-email{
+            font-size: 15px;
+            font-family : Arial;
+            color: gray;
+        }
+        .linkedin-input{
+            font-size: 18px;
+            width: 300px;
+        }
+        .linkedin-disclaimer{
+            font-size:14px;
+            font-family : Arial;
+            color: gray;
+
+        }
+        .linkedin-button{
+            width: 300px;
+            color: white;
+            font-family: Arial;
+            background-color: #6262d8;
+            border: none;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .tweet-profile-photo{
+            height: 50px;
+            width: 50px;
+            border : none;
+            border-radius: 50px;
+            vertical-align: middle;
+        }
+        .tweet-input{
+            font-size: 20px;
+           vertical-align: middle;
+           border: none;
+        }
+        .tweet-button{
+            color: white;
+            padding: 10px;
+            color: white;
+            background-color: #6262d8;
+            border: none;
+            font-size: 13px;
+            border-radius: 22px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <img class="cover" src="../assets/thumbnails/Snap.png">
+    <input class="searchbar" type="text" placeholder="Search">
+    <input type="text" class="googlesearch" placeholder="Search Google or type a URL">
+    <p class="linkedin-email">Email</p>
+    <input type="text" class="linkedin-input">
+    <p class="linkedin-disclaimer">By clicking Agree & Join, you agree to the Privacy .</p>
+    <button class="linkedin-button">Agree & Join</button>
+    <img src="../assets/thumbnails/Snap.png" class="tweet-profile-photo">
+    <input type="text" class="tweet-input" placeholder="What's happening?">
+    <button class="tweet-button">Tweet</button>
+</body>
+</html>
